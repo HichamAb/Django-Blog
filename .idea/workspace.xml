@@ -1,18 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7b5884b-3487-4829-a6a2-2a5e66db92a5" name="Default Changelist" comment="" />
+    <list default="true" id="d7b5884b-3487-4829-a6a2-2a5e66db92a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myblog/blog/migrations/0002_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/profile_pics/Screenshot_from_2019-09-25_14-21-09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/blog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/blog/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/blog/templates/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/templates/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/myblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/myblog/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RHv2Yta3AlbYo51NZOdEbVZYSP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/web" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -43,10 +73,42 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

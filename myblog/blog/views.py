@@ -14,3 +14,4 @@ class PostDetail(DetailView) :
     context_object_name = 'post'
     slug_url_kwarg = 'slug'
     template_name = 'post_detail.html'
+
