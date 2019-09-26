@@ -1,6 +1,8 @@
 from django.shortcuts import render
-from django.views.generic import ListView,DetailView
+from django.views.generic import ListView,DetailView,CreateView
 
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin,UserPassesTestMixin
 from .models import BlogPost
 # Create your views here.
 
@@ -15,3 +17,13 @@ class PostDetail(DetailView) :
     slug_url_kwarg = 'slug'
     template_name = 'post_detail.html'
 
+
+class CreatePost(LoginRequiredMixin,CreateView):
+    model = BlogPost
+    fields = ["title","content"]
+    template_name = "create_post.html"
+    success_url = "/"
+
+    def form_valid(self,form) :
+            form.instance.author=self.request.user
+            return super().form_valid(form)
