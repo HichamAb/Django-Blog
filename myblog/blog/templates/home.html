@@ -2,13 +2,14 @@
 {% block content %}
     {% for post in posts %}
         <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="{{MEDIA_URL}}{{ post.author.profile.image.url}}" class="card-img-top" >
           <div class="card-body">
             <h5 class="card-title">{{post.title}}</h5>
             <p class="card-text">{{post.content}}</p>
             <a href="{% url 'post-detail' post.slug %}" class="btn btn-primary">See full post</a>
           </div>
         </div>
+<img src="{{MEDIA_URL}}{{ post.author.profile.image.url}}">
 <!--
         <h2><a href="{% url 'post-detail' post.slug %}">{{post.title}}</a></h2>
         <p>{{post.content}}</p>
