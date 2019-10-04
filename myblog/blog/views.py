@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.views.generic import ListView,DetailView,CreateView
+from django.views.generic import ListView,DetailView,CreateView,UpdateView
 
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin,UserPassesTestMixin
@@ -20,7 +20,7 @@ class PostDetail(DetailView) :
 
 class CreatePost(LoginRequiredMixin,CreateView):
     model = BlogPost
-    fields = ["title","content"]
+    fields = ["title","content","image"]
     template_name = "create_post.html"
     success_url = "/"
 

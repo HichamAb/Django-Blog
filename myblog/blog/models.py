@@ -12,6 +12,7 @@ class BlogPost(models.Model):
     title=models.CharField(max_length=255,null=False)
     content=models.TextField(null=False)
     date_posted=models.DateTimeField(default=timezone.now)
+    image=models.ImageField(default="post_images/default.png",upload_to="post_images")
     author=models.ForeignKey(User,on_delete=models.CASCADE)
     slug=models.SlugField(default=uuid.uuid1,max_length=255,unique=True)#slug to use it on the url
 
@@ -20,6 +21,7 @@ class BlogPost(models.Model):
 
     def save(self, *args, **kwargs):
         self.slug = slugify(self.title)
+
         super(BlogPost, self).save(*args, **kwargs)
 
 class Profile(models.Model):
